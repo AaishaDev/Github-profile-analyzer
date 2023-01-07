@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script defer src="./script.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Github Profile Analyzer</title>
+  </head>
+ 
+  <body>
+    <div class="container">
+      <div>
+        <img width="50px" src="./images/bi_github (1).png" alt="" />
+      </div>
+      <div>Github Profile Analyzer</div>
+      <div class="form">
+        <form id="search_form">
+          <input
+            class="input_stroke form_input"
+            type="text"
+            placeholder="Search by username"
+          />
+          <input class="btn submit_btn" type="submit" value="Submit" />
+        </form>
+      </div>
+    </div>
+    <div class="container2 hidden">
+      <button class="btn">See profile on github</button>
+      <div class="search">
+        <input data-searchInput type="text" placeholder="Search by username" />
+        <i
+          color="
+      #5E87F5"
+          data-search
+          class="fa fa-search"
+          aria-hidden="true"
+        ></i>
+      </div>
+      <div >
+        <img
+          class="avatar"
+          data-avatar
+          width="120px"
+          src="./images/bi_github (1).png"
+          alt=""
+        />
+      </div>
+      <div>
+        <p class="name" data-name>Aaisha</p>
+        <p class="bio" data-bio>Full Stack Developer</p>
+      </div>
+      <div class="user_details">
+        <div class="active_tab">
+          <div class="repo_count" data-repoCount>12</div>
+          <p>Repos</p>
+        </div>
+        <div>
+          <div class="follower_count" data-followerCount>2</div>
+          <p>Followers</p>
+        </div>
+        <div>
+          <div class="following_count" data-followingCount>0</div>
+          <p>Following</p>
+        </div>
+      </div>
+      <div class="repos">
+        <!-- <div class="repo">
+          <p class="repo_name">Foodiz</p>
+          <p class="repo_description">
+            Android Five Stars Library is a small library that helps developers
+            add a \"Rate My App\" dialog to their applications.
+          </p>
+          <div class="repo_detail">
+            <p class="repo_language">Java</p>
+            <p class="repo_date">Date</p>
+          </div>
+        </div>
+        <div class="repo">
+          <p class="repo_name">Foodiz</p>
+          <p class="repo_description">
+            Android Five Stars Library is a small library that helps developers
+            add a \"Rate My App\" dialog to their applications.
+          </p>
+          <div class="repo_detail">
+            <p class="repo_language">Java</p>
+            <p class="repo_date">Date</p>
+          </div>
+        </div>
+        <div class="repo">
+          <p class="repo_name">Foodiz</p>
+          <p class="repo_description">
+            Android Five Stars Library is a small library that helps developers
+            add a \"Rate My App\" dialog to their applications.
+          </p>
+          <div class="repo_detail">
+            <p class="repo_language">Java</p>
+            <p class="repo_date">Date</p>
+          </div>
+        </div> -->
+      </div>
+      <div class="followers hidden">
+        <!-- <div class="follower">
+          <div>
+            <img width="50px" src="./images/bi_github (1).png" alt="" />
+          </div>
+          <div>
+            <div>
+              <div class="follow_name">Maria</div>
+              <div class="follow_user_name">@mariazz</div>
+            </div>
+            <div class="follower_bio">I’m the one who codes all day</div>
+          </div>
+        </div>
+        <div class="follower">
+          <div>
+            <img width="50px" src="./images/bi_github (1).png" alt="" />
+          </div>
+          <div>
+            <div>
+              <div class="follow_name">Maria</div>
+              <div class="follow_user_name">@mariazz</div>
+            </div>
+            <div class="follower_bio">I’m the one who codes all day</div>
+          </div>
+        </div>
+        <div class="follower">
+          <div>
+            <img width="50px" src="./images/bi_github (1).png" alt="" />
+          </div>
+          <div>
+            <div>
+              <div class="follow_name">Maria</div>
+              <div class="follow_user_name">@mariazz</div>
+            </div>
+            <div class="follower_bio">I’m the one who codes all day</div>
+          </div>
+        </div> -->
+      </div>
+      <div class="followings hidden">
+        <!-- <div class="following">
+          <div>
+            <img width="50px" src="./images/bi_github (1).png" alt="" />
+          </div>
+          <div>
+            <div>
+              <div class="follow_name">Zackeria</div>
+              <div class="follow_user_name">@mariazz</div>
+            </div>
+            <div class="follower_bio">I’m the one who codes all day</div>
+          </div>
+        </div>
+        <div class="following">
+          <div>
+            <img width="50px" src="./images/bi_github (1).png" alt="" />
+          </div>
+          <div>
+            <div>
+              <div class="follow_name">Zackeria</div>
+              <div class="follow_user_name">@mariazz</div>
+            </div>
+            <div class="follower_bio">I’m the one who codes all day</div>
+          </div>
+        </div>
+        <div class="following">
+          <div>
+            <img width="50px" src="./images/bi_github (1).png" alt="" />
+          </div>
+          <div>
+            <div>
+              <div class="follow_name">Zackeria</div>
+              <div class="follow_user_name">@mariazz</div>
+            </div>
+            <div class="follower_bio">I’m the one who codes all day</div>
+          </div>
+        </div> -->
+      </div>
+    </div>
+  </body>
+
+  
+</html>
